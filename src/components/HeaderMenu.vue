@@ -1,4 +1,5 @@
 <template>
+  <!--只能包含一个子元素-->
   <div id="header">
     <a href="#" id="logo">
       <span>Vue.js</span>
