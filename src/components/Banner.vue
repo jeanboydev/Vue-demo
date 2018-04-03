@@ -1,5 +1,8 @@
 <template>
   <div id="banner">
+
+    <router-view/>
+
     <div id="hero">
       <div class="inner">
         <div class="left">
@@ -19,7 +22,7 @@
               </svg>
 
               WHY VUE.JS?</a>
-            <a class="button" href="#">起步</a>
+            <a class="button" v-on:click="goTestRouter">起步</a>
             <a class="button gray has-icon" href="#" target="_blank">
               <svg aria-labelledby="simpleicons-github-dark-icon" lang="" role="img" viewBox="0 0 24 24"
                    xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon" lang="en">GitHub Dark
@@ -33,6 +36,7 @@
         </div>
       </div>
     </div>
+
     <div id="special-sponsor">
       <h3>Special Sponsors</h3>
       <br>
@@ -46,6 +50,7 @@
         <span>The fastest way to share code</span>
       </a>
     </div>
+
     <div id="highlights">
       <div class="inner">
         <div class="point">
@@ -73,7 +78,12 @@
 
 <script>
 export default {
-  name: 'banner'
+  name: 'banner',
+  methods: {
+    goTestRouter () {
+      this.$router.push('/TestRouter')
+    }
+  }
 }
 </script>
 
