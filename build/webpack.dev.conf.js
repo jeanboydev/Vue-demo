@@ -69,7 +69,9 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       }
     ])
-  ].concat(utils.htmlPlugin())//添加 .concat(utils.htmlPlugin())
+
+    /* 数组结尾添加 .concat(utils.htmlPlugin()) ------------- */
+  ].concat(utils.htmlPlugin())
 })
 
 module.exports = new Promise((resolve, reject) => {

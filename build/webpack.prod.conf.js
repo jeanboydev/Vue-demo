@@ -121,7 +121,9 @@ const webpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       }
     ])
-  ].concat(utils.htmlPlugin())//该位置添加 .concat(utils.htmlPlugin())
+
+    /* 数组结尾添加 .concat(utils.htmlPlugin()) ------------- */
+  ].concat(utils.htmlPlugin())
 })
 
 if (config.build.productionGzip) {
