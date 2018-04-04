@@ -1,21 +1,20 @@
 <template>
   <div id="app">
-    <!--<img src="./assets/logo.png">-->
-    <!--<router-view/>-->
-
     <header-menu/>
     <banner/>
     <footer-sheet/>
+
+    <!--<router-view/>-->
   </div>
 </template>
 
 <script>
-import HeaderMenu from './components/HeaderMenu'
-import Banner from './components/Banner'
-import FooterSheet from './components/FooterSheet'
+import HeaderMenu from '../../components/index/HeaderMenu'
+import Banner from '../../components/index/Banner'
+import FooterSheet from '../../components/index/FooterSheet'
 
 export default {
-  name: 'App',
+  name: 'index',
   components: {// 在父组件中注册
     'header-menu': HeaderMenu,
     'banner': Banner,

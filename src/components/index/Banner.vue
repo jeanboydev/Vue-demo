@@ -3,7 +3,7 @@
     <div id="hero">
       <div class="inner">
         <div class="left">
-          <img class="hero-logo" src="../assets/logo.png">
+          <img class="hero-logo" src="../../assets/logo.png">
         </div>
         <div class="right">
           <h2 class="vue">Vue.js</h2>
@@ -19,7 +19,7 @@
               </svg>
 
               WHY VUE.JS?</a>
-            <a class="button" href="#">起步</a>
+            <a class="button" href="one.html">点击跳转</a>
             <a class="button gray has-icon" href="#" target="_blank">
               <svg aria-labelledby="simpleicons-github-dark-icon" lang="" role="img" viewBox="0 0 24 24"
                    xmlns="http://www.w3.org/2000/svg"><title id="simpleicons-github-icon" lang="en">GitHub Dark
@@ -37,12 +37,12 @@
       <h3>Special Sponsors</h3>
       <br>
       <a href="#" target="_blank">
-        <img src="../assets/images/stdlib.png" style="width:140px">
+        <img src="../../assets/images/stdlib.png" style="width:140px">
         <span>Function as a Service Platform and Library</span>
       </a>
       <br>
       <a href="#" target="_blank">
-        <img src="../assets/images/bit.png" style="width:60px;height:60px">
+        <img src="../../assets/images/bit.png" style="width:60px;height:60px">
         <span>The fastest way to share code</span>
       </a>
     </div>
@@ -78,7 +78,7 @@ export default {
 </script>
 
 <style scoped>
-  @import "../assets/css/fonts.css";
+  @import "../../assets/css/fonts.css";
 
   #banner {
     background: #42b983;

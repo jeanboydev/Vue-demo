@@ -46,7 +46,7 @@ export default {
 </script>
 
 <style scoped>
-  @import "../assets/css/fonts.css";
+  @import "../../assets/css/fonts.css";
 
   body {
     font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
@@ -116,7 +116,7 @@ export default {
     border-radius: 15px;
     margin-right: 10px;
     transition: border-color 0.2s ease;
-    background: #fff url(../assets/images/search.png) 8px 5px no-repeat;
+    background: #fff url(../../assets/images/search.png) 8px 5px no-repeat;
     background-size: 20px;
     vertical-align: middle !important;
   }

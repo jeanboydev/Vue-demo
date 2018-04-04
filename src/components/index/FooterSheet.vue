@@ -37,7 +37,7 @@ export default {
 </script>
 
 <style scoped>
-  @import "../assets/css/fonts.css";
+  @import "../../assets/css/fonts.css";
   #footer {
     padding: 40px 0;
     color: #fff;
